@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Parameterization.Verify_Lead">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="openBrowser"/>
+          <include name="createLead"/>
+          <include name="waits"/>
+          <include name="closeBrowser"/>
+          <include name="setup_ExtendReport"/>
+        </methods>
+      </class> <!-- Parameterization.Verify_Lead -->
+      <class name="Parameterization.Verify_ProjectSetup_Users">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="openBrowser"/>
+          <include name="createUser"/>
+          <include name="waits"/>
+          <include name="closeBrowser"/>
+          <include name="setup_ExtendReport"/>
+        </methods>
+      </class> <!-- Parameterization.Verify_ProjectSetup_Users -->
+      <class name="Parameterization.Verify_Properties_PropertyPriceAndStatus">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="create_Properties"/>
+          <include name="openBrowser"/>
+          <include name="waits"/>
+          <include name="setup_ExtendReport"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Parameterization.Verify_Properties_PropertyPriceAndStatus -->
+      <class name="Parameterization.Verify_Offer">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="create_offer"/>
+          <include name="openBrowser"/>
+          <include name="waits"/>
+          <include name="setup_ExtendReport"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Parameterization.Verify_Offer -->
+      <class name="Parameterization.Verify_Term_Conditions">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="openBrowser"/>
+          <include name="waits"/>
+          <include name="setup_ExtendReport"/>
+          <include name="closeBrowser"/>
+          <include name="createTermAndConditons"/>
+        </methods>
+      </class> <!-- Parameterization.Verify_Term_Conditions -->
+      <class name="Parameterization.Verify_ProjectBlocks">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="openBrowser"/>
+          <include name="createProjectBlocks"/>
+          <include name="waits"/>
+          <include name="setup_ExtendReport"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Parameterization.Verify_ProjectBlocks -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

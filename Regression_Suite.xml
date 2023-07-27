@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+         <class name="Regression.Verify_ProjectSetup_Projects"/>
+	    <class name="Regression.Verify_Role"></class>
+	    <class name="Regression.Verify_ProjectSetup_Users"></class>
+	    <class name="Regression.Verify_LeadSource"></class>
+	    <class name="Regression.Verify_Overall_Cost_types"></class>
+	    <class name="Regression.Verify_Term_Conditions"></class>
+	    <class name="Regression.Verify_PropertyType"></class>
+	    <class name="Regression.Verify_ProjectBlocks"></class>
+	    <class name="Regression.Verify_Properties_Features"></class>
+	    <class name="Regression.Verify_Properties_PropertyPriceAndStatus"></class>
+	    <class name="Regression.Verify_Offer"></class>
+        <class name="Regression.Verify_Lead"></class> 
+        <class name="Regression.Verify_Direct_Customer"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

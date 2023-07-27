@@ -1,0 +1,203 @@
+package Regression;
+
+import java.io.IOException;
+import java.time.Duration;
+
+import org.apache.poi.EncryptedDocumentException;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.asserts.SoftAssert;
+
+import utility.Excel;
+import utility.UtilityClass;
+import utility.Wait;
+
+public class ProjectSetup_Roles
+{
+	WebDriver driver;
+	WebDriverWait w;
+	SoftAssert a;
+	Actions A;
+	JavascriptExecutor j ;
+	
+	public ProjectSetup_Roles(WebDriver driver)
+	{
+		PageFactory.initElements(driver, this);
+		this.driver = driver;
+		w = new  WebDriverWait(driver, Duration.ofSeconds(30));
+		a = new SoftAssert();
+		A = new Actions(driver);
+		j =  (JavascriptExecutor)driver;
+	}
+	
+//=================================================================================================================================================
+	@FindBy (xpath = "//td[contains(text(),'Atomation Role-One 104')]/ parent :: tr //td // button") private WebElement editIcon_AtomationRole1;
+//==================================================================================================================================================
+	
+	@FindBy (xpath = "//div[text()='Project Setup']") private WebElement projectSetupIcon;
+	@FindBy (xpath = "//a[@href='/master/role'] / parent ::li ") private WebElement  roleIcon ;
+	@FindBy (xpath = "//a[@href='/master/user'] / parent :: li") private WebElement userIcon;
+	@FindBy (xpath = "//button[text()='  Add User '] ") private WebElement addUserButton;
+	
+	@FindBy (xpath = " //button[text()='  New Role ']") private WebElement addNewRole_Button ;
+	@FindBy (xpath = "//input[@formcontrolname='name']") private WebElement  roleName ;
+
+	@FindBy (xpath = " //textarea") private WebElement description  ;
+	
+	@FindBy (xpath = "//input[@id='2']") private WebElement permissionLeadCheckbox   ;
+	@FindBy (xpath = "//input[@id='1']") private WebElement  permissionMasterCheckbox ;
+	@FindBy (xpath = "//input[@id='3']") private WebElement  permissionSaleCheckbox ;
+	@FindBy (xpath = "//input[@id='4']") private WebElement  permissionCollectionCheckbox ;
+	
+	@FindBy (xpath = "//button[text()=' Submit ']") private WebElement submitButton  ;
+	@FindBy (xpath = " //mat-icon[text()='close']") private WebElement closeButton   ;
+	@FindBy (xpath = " //tr[2]") private WebElement  updateIcon ;
+	@FindBy (xpath = "//div[text()=' Message: Role Already Exists. ']") private WebElement errorMessage_DuplicateRole  ;
+	
+//=========================================================================================================================================	
+		// Role dropdown start with 104
+		@FindBy (xpath = "//mat-option//span[contains(text(),'Atomation Role-One 104')]") private WebElement selectRoleDropdown_AutomationRole1;
+		@FindBy (xpath = "//mat-option//span[contains(text(),'Atomation Role-Two 104')]") private WebElement selectRoleDropdown_AutomationRole2;
+		//=========================================================================================================================================
+		// Project dropdown start with 104
+		@FindBy (xpath = "//mat-select[@formcontrolname='id']") private WebElement selectProjectDropdown;
+		@FindBy (xpath = "(//mat-select[@formcontrolname='id'])[2]") private WebElement selectProjectDropdown2;
+		@FindBy (xpath = "//mat-option//span[contains(text(),'Automation Project-One 104')]") private WebElement selectProjectDropdown_AutomationProject1;
+		@FindBy (xpath = "//mat-option//span[contains(text(),'Automation Project-Two 104')]") private WebElement selectProjectDropdown_AutomationProject2;
+		//=========================================================================================================================================
+		// Department dropdown start with 104
+		@FindBy (xpath = "//mat-select[@formcontrolname='departments']") private WebElement selectDepartment;
+		@FindBy (xpath = "(//mat-select[@formcontrolname='departments'])[2]") private WebElement selectDepartment2;
+		@FindBy (xpath = "//mat-option//span[contains(text(),'Automation Department Civil 104')]") private WebElement selectDepartment_Civil;
+		//=========================================================================================================================================
+		//edit icon of user one start with ab
+		@FindBy (xpath ="//td[contains(text(),'Automation User One ab')]/parent :: tr // td//button")private WebElement editButton_AutomationUserOne;
+		//=========================================================================================================================================
+		@FindBy (xpath = "//input[@formcontrolname='name']") private WebElement nameUser;
+		@FindBy (xpath = "//mat-select[@formcontrolname='gender'] ") private WebElement genderDropdown;
+		@FindBy (xpath = "//span[text()='Male']") private WebElement genderDropdown_Male ;
+		@FindBy (xpath = "//span[text()='Female']") private WebElement genderDropdown_Female;
+		@FindBy (xpath = "//input[@formcontrolname='email']") private WebElement email;
+		@FindBy (xpath = "//input[@formcontrolname='phone']") private WebElement phone;
+		@FindBy (xpath = "//input[@formcontrolname='alternate_phone']") private WebElement alternatePhone;
+		@FindBy (xpath = "//input[@formcontrolname='password']") private WebElement password;
+
+
+		@FindBy (xpath = "(//mat-option//span)[1]") private WebElement selectProjectDropdown_Infrastructure;
+		
+		
+		@FindBy (xpath = "(//mat-select[@formcontrolname='parents']) [1]")private WebElement selectParent_Dropdown1;
+		@FindBy (xpath = "(//mat-select[@formcontrolname='parents']) [2]")private WebElement selectParent_Dropdown2;
+		@FindBy (xpath = "//mat-option//span[text()=' Pratik Narute ']")private WebElement selectParent_Dropdown_PratikNarute;
+		
+		@FindBy (xpath = "//mat-icon[text()='add']") private WebElement addIcon;
+		@FindBy (xpath= "//mat-icon[text()='clear']") private WebElement closeIcon;
+		@FindBy (xpath = "(//mat-icon[text()='clear'])[2]") private WebElement closeIcon2;
+		@FindBy (xpath = "//mat-select[@formcontrolname='role_id']") private WebElement selectRoleDropdown;
+		@FindBy (xpath = "(//mat-option//span)[2]") private WebElement selectRoleDropdown_SalesManager;
+
+		@FindBy (xpath = "//textarea[@formcontrolname='address']") private WebElement address;
+		@FindBy (xpath = "//input[@formcontrolname='postal_code']") private WebElement pinCode;
+		@FindBy (xpath = "//mat-select[@formcontrolname='city']") private WebElement cityDropdown;
+		@FindBy (xpath = "//mat-select[@formcontrolname='area']")private WebElement areaDropdown;
+		@FindBy (xpath = "(//mat-option//span[text()=' K.V.Nagar Barshi S.O '])") private WebElement areaDropdown_KV;
+		@FindBy (xpath = "(//mat-checkbox[@formcontrolname='specialOffer'] //span)[1]") private WebElement specialOffers_CheckBox;
+		@FindBy (xpath = "//button[text()=' Generate Passcode ']")private  WebElement generatePasscode;
+		@FindBy (xpath = "//button[@class='pushable close-btn ng-star-inserted']") private WebElement editRole;
+		@FindBy (xpath = "//button[contains(text(), 'Update')]") WebElement updateRole;
+		
+		@FindBy (xpath = "//div[text()=' Message: , ']")private WebElement errorMeassage_DuplicateUser;
+//	@FindBy (xpath = " ") private WebElement   ;
+	
+	
+
+    public void editIcon_AtomationRole1()
+    {
+    	j.executeScript("arguments[0].click()",editIcon_AtomationRole1);
+    }
+    
+	public void createRoles() throws InterruptedException, EncryptedDocumentException, IOException
+	{	
+		
+		Thread.sleep(1000);	Wait.explicitWait(projectSetupIcon, 10, driver);
+		projectSetupIcon.click();
+		Thread.sleep(1000);	Wait.explicitWait(roleIcon, 10, driver);
+		roleIcon.click();
+	
+		for (int role=1; role<=1; role++) 
+		{
+			Thread.sleep(2000); Wait.explicitWait(addNewRole_Button, 10, driver);
+			addNewRole_Button.click();
+			System.out.println("Start to create role: "+Excel.Regression_importDataFromExcel("Roles", role, 0));
+			Wait.explicitWait(roleName, 5, driver);
+			roleName.sendKeys(Excel.Regression_importDataFromExcel("Roles", role, 0)+" "+utility.UtilityClass.getRandomString(2));
+			description.sendKeys(Excel.Regression_importDataFromExcel("Roles", role, 1)+" "+utility.UtilityClass.getRandomString(2));
+			
+			permissionMasterCheckbox.click();		
+			permissionLeadCheckbox.click();	
+			permissionSaleCheckbox.click();
+			permissionCollectionCheckbox.click();
+			
+//	      ==============================================================================
+			//Loop for Access permission
+			for (int i=1; i<=108; i++)
+			{
+				boolean result= driver.findElement(By.xpath("(//mat-slide-toggle) ["+i+"]")).isEnabled();
+				Assert.assertEquals(result, true);
+				
+				if ((i==4 || i==60 || i==84 || i==100))
+				{
+					driver.findElement(By.xpath("(//mat-slide-toggle) ["+i+"]")).click();
+				}
+			}
+//	      ===============================================================================	
+			submitButton.click();
+			Thread.sleep(2000);
+			System.out.println("===============================================================");
+		}
+	}
+	
+
+	public void editNewRole() throws InterruptedException, EncryptedDocumentException, IOException
+	{
+		Wait.explicitWait(projectSetupIcon, 10, driver);
+		projectSetupIcon.click();
+		Wait.explicitWait(roleIcon, 10, driver);
+		roleIcon.click();
+		Thread.sleep(1000); j.executeScript("arguments[0].click();", editRole); Thread.sleep(2000);
+		roleName.sendKeys(Keys.CONTROL, "a", Keys.DELETE);
+		description.sendKeys(Keys.CONTROL, "a", Keys.DELETE);
+		
+		roleName.sendKeys(Excel.Regression_importDataFromExcel("Roles", 1, 0)+" "+utility.UtilityClass.getRandomString(2));
+		description.sendKeys(Excel.Regression_importDataFromExcel("Roles", 1, 1)+" "+utility.UtilityClass.getRandomString(2));
+		
+//      ==============================================================================
+		for (int i=1; i<=108; i++)
+		{
+			boolean result= driver.findElement(By.xpath("(//mat-slide-toggle) ["+i+"]")).isEnabled();
+			Assert.assertEquals(result, true);
+		}
+//      ===============================================================================	
+		Wait.explicitWait(updateRole, 10, driver);
+		updateRole.click();
+        Thread.sleep(2000);
+	}
+
+	
+	
+	
+
+	
+	
+
+}
