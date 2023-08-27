@@ -21,7 +21,7 @@ public class Verify_ProjectSetup_Projects extends Parameterization.BaseClass
 		Parameterization.ProjectSetup_Projects P = new Parameterization.ProjectSetup_Projects(driver);
 		test = report.createTest("Verify that whether 'Project' create or not").assignCategory("Master");
 		Thread.sleep(2000);driver.navigate().refresh(); Thread.sleep(2000);
-	//	P.addDepartment();
+		P.addDepartment();
 		P.createProjects();		
 	}
 	

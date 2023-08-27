@@ -40,6 +40,7 @@ public class BaseClass
 	    report = new ExtentReports(); // To generate extent report
 		ExtentSparkReporter spark = new ExtentSparkReporter("target/Spark.html");  //Set path in system for store the generated report
 		report.attachReporter(spark); //To attach generated report into selected path
+		
 	}
 	
 	@BeforeClass (enabled=true)
@@ -54,7 +55,7 @@ public class BaseClass
 //		driver.get("https://dream.kolonizer.in/");
 		
 		driver.manage().window().maximize();
-
+		
 	    Parameterization.LoginPage L = new Parameterization.LoginPage(driver);
 		L.username();
 		L.password();

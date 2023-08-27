@@ -49,8 +49,8 @@ public class BaseClass
 //		driver=utility.UtilityClass.openEgeBrowser(driver);
 		
 //		driver.get("http://localhost:4200/login");
-		driver.get("http://devdreamcity.kolonizer.in/login");
-//		driver.get("http://uatdreamcity.kolonizer.in/login");
+//		driver.get("http://devdreamcity.kolonizer.in/login");
+		driver.get("http://uatdreamcity.kolonizer.in/login");
 //		driver.get("https://dream.kolonizer.in/");
 //		driver.get("https://dreamcity.kolonizer.in/login");
 		

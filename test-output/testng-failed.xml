@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="Regression.Verify_Lead">
+        <methods>
+          <include name="createLead"/>
+          <include name="setup_ExtendReport"/>
+          <include name="closeBrowser"/>
+          <include name="waits"/>
+          <include name="afterMethod"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- Regression.Verify_Lead -->
+      <class name="Regression.Verify_ProjectSetup_Users">
+        <methods>
+          <include name="setup_ExtendReport"/>
+          <include name="closeBrowser"/>
+          <include name="editUser"/>
+          <include name="waits"/>
+          <include name="afterMethod"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- Regression.Verify_ProjectSetup_Users -->
       <class name="Regression.Verify_Offer">
         <methods>
           <include name="setup_ExtendReport"/>
@@ -13,6 +33,26 @@
           <include name="openBrowser"/>
         </methods>
       </class> <!-- Regression.Verify_Offer -->
+      <class name="Regression.Verify_Term_Conditions">
+        <methods>
+          <include name="setup_ExtendReport"/>
+          <include name="closeBrowser"/>
+          <include name="waits"/>
+          <include name="afterMethod"/>
+          <include name="createTermAndConditons"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- Regression.Verify_Term_Conditions -->
+      <class name="Regression.Verify_Direct_Customer">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="setup_ExtendReport"/>
+          <include name="waits"/>
+          <include name="create_Customer_with_payment_type_is_one_time"/>
+          <include name="afterMethod"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- Regression.Verify_Direct_Customer -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

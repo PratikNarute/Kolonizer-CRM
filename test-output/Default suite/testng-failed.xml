@@ -3,16 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Regression.Verify_Offer">
+      <class name="Parameterization.Verify_ProjectSetup_Users">
         <methods>
-          <include name="setup_ExtendReport"/>
-          <include name="closeBrowser"/>
-          <include name="waits"/>
-          <include name="edit_offer_OfferTypIsAreaWise"/>
           <include name="afterMethod"/>
           <include name="openBrowser"/>
+          <include name="createUser"/>
+          <include name="waits"/>
+          <include name="closeBrowser"/>
+          <include name="setup_ExtendReport"/>
         </methods>
-      </class> <!-- Regression.Verify_Offer -->
+      </class> <!-- Parameterization.Verify_ProjectSetup_Users -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

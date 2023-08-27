@@ -85,7 +85,7 @@ public class LoginPage {
 
 	 public void username()
 	 {
-		 username.sendKeys("pratik@kolonizer.com");
+//		 username.sendKeys("pratik@kolonizer.com");
 //		 username.sendKeys("amit@kolonizer.com");
 //		 username.sendKeys("stock@kolonizer.com");    //  7april-new 10, call 2 times to 10 lead (primary) // 9april-call 3 times to 2 lead- // 10april-10 new lead 
 //		 username.sendKeys("testing@kolonizer.com");              // 7april-new 11
@@ -94,14 +94,12 @@ public class LoginPage {
 //		 username.sendKeys("mamnoon@kolonizer.com");
 //		 username.sendKeys("pratik@gmail.com");
 //		 username.sendKeys("sprint9@kolonizer.com");
-//		 username.sendKeys("amreen@kolonizer.com");
-		 
-		 
+		 username.sendKeys("sprint10@kolonizer.com");	 
 	 }
 	 public void password()
 	 {
-		 loginPassword.sendKeys("Pratik@123");
-//		 loginPassword.sendKeys("123");
+//		 loginPassword.sendKeys("Pratik@123");
+		 loginPassword.sendKeys("123");
 //		 loginPassword.sendKeys("Mamnoon@123");
 //		 loginPassword.sendKeys("Stock@123");
 //		 loginPassword.sendKeys("Payment@123");
