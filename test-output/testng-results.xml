@@ -1,226 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="23" passed="18" failed="5" skipped="0">
+<testng-results ignored="0" total="12" passed="4" failed="7" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-01T19:24:38 IST" name="Suite" finished-at="2023-08-01T19:51:21 IST" duration-ms="1603247">
+  <suite started-at="2023-08-28T21:48:47 IST" name="Suite" finished-at="2023-08-28T21:55:52 IST" duration-ms="425026">
     <groups>
       <group name="regression">
-        <method signature="Verify_ProjectSetup_Projects.Create_DepartmentAndProject()[pri:1, instance:Regression.Verify_ProjectSetup_Projects@231f98ef]" name="Create_DepartmentAndProject" class="Regression.Verify_ProjectSetup_Projects"/>
-        <method signature="Verify_ProjectSetup_Projects.editProject()[pri:3, instance:Regression.Verify_ProjectSetup_Projects@231f98ef]" name="editProject" class="Regression.Verify_ProjectSetup_Projects"/>
+        <method signature="Verify_ProjectSetup_Projects.Create_DepartmentAndProject()[pri:1, instance:Parameterization.Verify_ProjectSetup_Projects@451001e5]" name="Create_DepartmentAndProject" class="Parameterization.Verify_ProjectSetup_Projects"/>
       </group> <!-- regression -->
     </groups>
-    <test started-at="2023-08-01T19:24:38 IST" name="Test" finished-at="2023-08-01T19:51:21 IST" duration-ms="1603247">
-      <class name="Regression.Verify_ProjectSetup_Projects">
-        <test-method is-config="true" signature="setup_ExtendReport()[pri:0, instance:Regression.Verify_ProjectSetup_Projects@231f98ef]" started-at="2023-08-01T19:24:38 IST" name="setup_ExtendReport" finished-at="2023-08-01T19:24:38 IST" duration-ms="195" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup_ExtendReport -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Regression.Verify_ProjectSetup_Projects@231f98ef]" started-at="2023-08-01T19:24:38 IST" name="openBrowser" finished-at="2023-08-01T19:26:09 IST" duration-ms="91288" status="PASS">
+    <test started-at="2023-08-28T21:48:47 IST" name="Test" finished-at="2023-08-28T21:55:52 IST" duration-ms="425026">
+      <class name="Parameterization.Verify_ProjectSetup_Users">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Parameterization.Verify_ProjectSetup_Users@7188af83]" started-at="2023-08-28T21:49:53 IST" name="openBrowser" finished-at="2023-08-28T21:49:58 IST" duration-ms="5031" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="waits()[pri:0, instance:Regression.Verify_ProjectSetup_Projects@231f98ef]" started-at="2023-08-01T19:26:09 IST" name="waits" finished-at="2023-08-01T19:26:09 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="waits()[pri:0, instance:Parameterization.Verify_ProjectSetup_Users@7188af83]" started-at="2023-08-28T21:49:58 IST" name="waits" finished-at="2023-08-28T21:49:58 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waits -->
-        <test-method signature="Create_DepartmentAndProject()[pri:1, instance:Regression.Verify_ProjectSetup_Projects@231f98ef]" started-at="2023-08-01T19:26:09 IST" name="Create_DepartmentAndProject" finished-at="2023-08-01T19:26:34 IST" duration-ms="25062" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Create_DepartmentAndProject -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Regression.Verify_ProjectSetup_Projects@231f98ef]" started-at="2023-08-01T19:26:34 IST" name="afterMethod" finished-at="2023-08-01T19:26:35 IST" duration-ms="419" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Create_DepartmentAndProject status=SUCCESS method=Verify_ProjectSetup_Projects.Create_DepartmentAndProject()[pri:1, instance:Regression.Verify_ProjectSetup_Projects@231f98ef] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="waits()[pri:0, instance:Regression.Verify_ProjectSetup_Projects@231f98ef]" started-at="2023-08-01T19:26:35 IST" name="waits" finished-at="2023-08-01T19:26:35 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waits -->
-        <test-method signature="editProject()[pri:3, instance:Regression.Verify_ProjectSetup_Projects@231f98ef]" started-at="2023-08-01T19:26:35 IST" name="editProject" finished-at="2023-08-01T19:26:47 IST" duration-ms="12024" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- editProject -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Regression.Verify_ProjectSetup_Projects@231f98ef]" started-at="2023-08-01T19:26:47 IST" name="afterMethod" finished-at="2023-08-01T19:26:47 IST" duration-ms="25" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=editProject status=SUCCESS method=Verify_ProjectSetup_Projects.editProject()[pri:3, instance:Regression.Verify_ProjectSetup_Projects@231f98ef] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Regression.Verify_ProjectSetup_Projects@231f98ef]" started-at="2023-08-01T19:26:47 IST" name="closeBrowser" finished-at="2023-08-01T19:26:50 IST" duration-ms="3006" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[disconnected: not connected to DevTools
-  (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: chrome=115.0.5790.110)
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'DESKTOP-MHD5K99', ip: '192.168.29.227', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [18c24707a3b93451d2dfd2f743272d4e, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64522}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64522/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 18c24707a3b93451d2dfd2f743272d4e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
-  (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: chrome=115.0.5790.110)
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'DESKTOP-MHD5K99', ip: '192.168.29.227', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [18c24707a3b93451d2dfd2f743272d4e, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64522}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64522/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 18c24707a3b93451d2dfd2f743272d4e
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:432)
-at Regression.BaseClass.closeBrowser(BaseClass.java:69)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:229)
-at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:215)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:131)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- Regression.Verify_ProjectSetup_Projects -->
-      <class name="Regression.Verify_Role">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Regression.Verify_Role@8462f31]" started-at="2023-08-01T19:26:50 IST" name="openBrowser" finished-at="2023-08-01T19:28:21 IST" duration-ms="91195" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="waits()[pri:0, instance:Regression.Verify_Role@8462f31]" started-at="2023-08-01T19:28:21 IST" name="waits" finished-at="2023-08-01T19:28:21 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waits -->
-        <test-method signature="createRole()[pri:0, instance:Regression.Verify_Role@8462f31]" started-at="2023-08-01T19:28:21 IST" name="createRole" finished-at="2023-08-01T19:28:35 IST" duration-ms="13846" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createRole -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Regression.Verify_Role@8462f31]" started-at="2023-08-01T19:28:35 IST" name="afterMethod" finished-at="2023-08-01T19:28:35 IST" duration-ms="23" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=createRole status=SUCCESS method=Verify_Role.createRole()[pri:0, instance:Regression.Verify_Role@8462f31] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="waits()[pri:0, instance:Regression.Verify_Role@8462f31]" started-at="2023-08-01T19:28:35 IST" name="waits" finished-at="2023-08-01T19:28:35 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waits -->
-        <test-method signature="editRole()[pri:0, instance:Regression.Verify_Role@8462f31]" started-at="2023-08-01T19:28:35 IST" name="editRole" finished-at="2023-08-01T19:28:48 IST" duration-ms="13036" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- editRole -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Regression.Verify_Role@8462f31]" started-at="2023-08-01T19:28:48 IST" name="afterMethod" finished-at="2023-08-01T19:28:48 IST" duration-ms="14" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=editRole status=SUCCESS method=Verify_Role.editRole()[pri:0, instance:Regression.Verify_Role@8462f31] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Regression.Verify_Role@8462f31]" started-at="2023-08-01T19:28:48 IST" name="closeBrowser" finished-at="2023-08-01T19:28:51 IST" duration-ms="3096" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- Regression.Verify_Role -->
-      <class name="Regression.Verify_Direct_Customer">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Regression.Verify_Direct_Customer@303cf2ba]" started-at="2023-08-01T19:49:29 IST" name="openBrowser" finished-at="2023-08-01T19:51:01 IST" duration-ms="91569" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="create_Customer_with_payment_type_is_one_time()[pri:0, instance:Regression.Verify_Direct_Customer@303cf2ba]" started-at="2023-08-01T19:51:01 IST" name="create_Customer_with_payment_type_is_one_time" finished-at="2023-08-01T19:51:17 IST" duration-ms="16859" status="FAIL">
+        <test-method signature="createUser()[pri:1, instance:Parameterization.Verify_ProjectSetup_Users@7188af83]" started-at="2023-08-28T21:49:58 IST" name="createUser" finished-at="2023-08-28T21:50:33 IST" duration-ms="35415" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@routerlink= 'add-customer']"}
-  (Session info: chrome=115.0.5790.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'DESKTOP-MHD5K99', ip: '192.168.29.227', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//mat-option//span[contains(text(),'Pratik')]"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2b88c45df5d192c17291cd5f57688782, findElement {using=xpath, value=//button[@routerlink= 'add-customer']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49577}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49577/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2b88c45df5d192c17291cd5f57688782]]>
+Command: [410b64f11c480b45ac5ed17233e2dd81, findElement {using=xpath, value=//mat-option//span[contains(text(),'Pratik')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65406}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65406/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 410b64f11c480b45ac5ed17233e2dd81]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@routerlink= 'add-customer']"}
-  (Session info: chrome=115.0.5790.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'DESKTOP-MHD5K99', ip: '192.168.29.227', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//mat-option//span[contains(text(),'Pratik')]"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2b88c45df5d192c17291cd5f57688782, findElement {using=xpath, value=//button[@routerlink= 'add-customer']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49577}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49577/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2b88c45df5d192c17291cd5f57688782
+Command: [410b64f11c480b45ac5ed17233e2dd81, findElement {using=xpath, value=//mat-option//span[contains(text(),'Pratik')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65406}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65406/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 410b64f11c480b45ac5ed17233e2dd81
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
-at Regression.Direct_Customer.add_Customer_Button(Direct_Customer.java:416)
-at Regression.Verify_Direct_Customer.create_Customer_with_payment_type_is_one_time(Verify_Direct_Customer.java:13)
+at Parameterization.ProjectSetup_Users.CreateUsers(ProjectSetup_Users.java:191)
+at Parameterization.Verify_ProjectSetup_Users.createUser(Verify_ProjectSetup_Users.java:27)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -252,115 +91,74 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- create_Customer_with_payment_type_is_one_time -->
-        <test-method is-config="true" signature="waits()[pri:0, instance:Regression.Verify_Direct_Customer@303cf2ba]" started-at="2023-08-01T19:51:01 IST" name="waits" finished-at="2023-08-01T19:51:01 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waits -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Regression.Verify_Direct_Customer@303cf2ba]" started-at="2023-08-01T19:51:17 IST" name="afterMethod" finished-at="2023-08-01T19:51:18 IST" duration-ms="618" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=create_Customer_with_payment_type_is_one_time status=FAILURE method=Verify_Direct_Customer.create_Customer_with_payment_type_is_one_time()[pri:0, instance:Regression.Verify_Direct_Customer@303cf2ba] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Regression.Verify_Direct_Customer@303cf2ba]" started-at="2023-08-01T19:51:18 IST" name="closeBrowser" finished-at="2023-08-01T19:51:21 IST" duration-ms="3174" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- Regression.Verify_Direct_Customer -->
-      <class name="Regression.Verify_Properties_PropertyPriceAndStatus">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Regression.Verify_Properties_PropertyPriceAndStatus@7c37508a]" started-at="2023-08-01T19:43:44 IST" name="openBrowser" finished-at="2023-08-01T19:45:16 IST" duration-ms="91197" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="waits()[pri:0, instance:Regression.Verify_Properties_PropertyPriceAndStatus@7c37508a]" started-at="2023-08-01T19:45:16 IST" name="waits" finished-at="2023-08-01T19:45:16 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waits -->
-        <test-method signature="create_Properties()[pri:0, instance:Regression.Verify_Properties_PropertyPriceAndStatus@7c37508a]" started-at="2023-08-01T19:45:16 IST" name="create_Properties" finished-at="2023-08-01T19:45:41 IST" duration-ms="25534" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- create_Properties -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Regression.Verify_Properties_PropertyPriceAndStatus@7c37508a]" started-at="2023-08-01T19:45:41 IST" name="afterMethod" finished-at="2023-08-01T19:45:41 IST" duration-ms="25" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=create_Properties status=SUCCESS method=Verify_Properties_PropertyPriceAndStatus.create_Properties()[pri:0, instance:Regression.Verify_Properties_PropertyPriceAndStatus@7c37508a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="edit_Properties()[pri:0, instance:Regression.Verify_Properties_PropertyPriceAndStatus@7c37508a]" started-at="2023-08-01T19:45:41 IST" name="edit_Properties" finished-at="2023-08-01T19:45:59 IST" duration-ms="17970" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- edit_Properties -->
-        <test-method is-config="true" signature="waits()[pri:0, instance:Regression.Verify_Properties_PropertyPriceAndStatus@7c37508a]" started-at="2023-08-01T19:45:41 IST" name="waits" finished-at="2023-08-01T19:45:41 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waits -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Regression.Verify_Properties_PropertyPriceAndStatus@7c37508a]" started-at="2023-08-01T19:45:59 IST" name="afterMethod" finished-at="2023-08-01T19:45:59 IST" duration-ms="38" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=edit_Properties status=SUCCESS method=Verify_Properties_PropertyPriceAndStatus.edit_Properties()[pri:0, instance:Regression.Verify_Properties_PropertyPriceAndStatus@7c37508a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Regression.Verify_Properties_PropertyPriceAndStatus@7c37508a]" started-at="2023-08-01T19:45:59 IST" name="closeBrowser" finished-at="2023-08-01T19:46:02 IST" duration-ms="3130" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- Regression.Verify_Properties_PropertyPriceAndStatus -->
-      <class name="Regression.Verify_ProjectSetup_Users">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Regression.Verify_ProjectSetup_Users@24569dba]" started-at="2023-08-01T19:28:51 IST" name="openBrowser" finished-at="2023-08-01T19:30:21 IST" duration-ms="89879" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="waits()[pri:0, instance:Regression.Verify_ProjectSetup_Users@24569dba]" started-at="2023-08-01T19:30:21 IST" name="waits" finished-at="2023-08-01T19:30:21 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waits -->
-        <test-method signature="createUser()[pri:1, instance:Regression.Verify_ProjectSetup_Users@24569dba]" started-at="2023-08-01T19:30:21 IST" name="createUser" finished-at="2023-08-01T19:31:02 IST" duration-ms="41463" status="PASS">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Regression.Verify_ProjectSetup_Users@24569dba]" started-at="2023-08-01T19:31:02 IST" name="afterMethod" finished-at="2023-08-01T19:31:02 IST" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Parameterization.Verify_ProjectSetup_Users@7188af83]" started-at="2023-08-28T21:50:33 IST" name="afterMethod" finished-at="2023-08-28T21:50:34 IST" duration-ms="326" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=createUser status=SUCCESS method=Verify_ProjectSetup_Users.createUser()[pri:1, instance:Regression.Verify_ProjectSetup_Users@24569dba] output={null}]]]>
+                <![CDATA[[TestResult name=createUser status=FAILURE method=Verify_ProjectSetup_Users.createUser()[pri:1, instance:Parameterization.Verify_ProjectSetup_Users@7188af83] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="waits()[pri:0, instance:Regression.Verify_ProjectSetup_Users@24569dba]" started-at="2023-08-01T19:31:02 IST" name="waits" finished-at="2023-08-01T19:31:02 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Parameterization.Verify_ProjectSetup_Users@7188af83]" started-at="2023-08-28T21:50:34 IST" name="closeBrowser" finished-at="2023-08-28T21:50:37 IST" duration-ms="3177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Parameterization.Verify_ProjectSetup_Users -->
+      <class name="Parameterization.Verify_ProjectBlocks">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Parameterization.Verify_ProjectBlocks@303cf2ba]" started-at="2023-08-28T21:53:00 IST" name="openBrowser" finished-at="2023-08-28T21:53:04 IST" duration-ms="4448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="waits()[pri:0, instance:Parameterization.Verify_ProjectBlocks@303cf2ba]" started-at="2023-08-28T21:53:04 IST" name="waits" finished-at="2023-08-28T21:53:04 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waits -->
-        <test-method signature="editUser()[pri:2, instance:Regression.Verify_ProjectSetup_Users@24569dba]" started-at="2023-08-01T19:31:02 IST" name="editUser" finished-at="2023-08-01T19:31:34 IST" duration-ms="31157" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
+        <test-method signature="createProjectBlocks()[pri:0, instance:Parameterization.Verify_ProjectBlocks@303cf2ba]" started-at="2023-08-28T21:53:04 IST" name="createProjectBlocks" finished-at="2023-08-28T21:53:19 IST" duration-ms="14568" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[text()='Project Setup']' (tried for 10 second(s) with 500 milliseconds interval)]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), ' Add Project Block ')]"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [353b414c4de0f142b8ef5ef020711cbe, findElement {using=xpath, value=//button[contains(text(), ' Add Project Block ')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49206}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49206/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 353b414c4de0f142b8ef5ef020711cbe]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[text()='Project Setup']' (tried for 10 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-at utility.Wait.explicitWait(Wait.java:16)
-at Regression.ProjectSetup_Users.editUser(ProjectSetup_Users.java:224)
-at Regression.Verify_ProjectSetup_Users.editUser(Verify_ProjectSetup_Users.java:41)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), ' Add Project Block ')]"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [353b414c4de0f142b8ef5ef020711cbe, findElement {using=xpath, value=//button[contains(text(), ' Add Project Block ')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49206}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49206/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 353b414c4de0f142b8ef5ef020711cbe
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+at Parameterization.Project_Blocks.createProjectBlocks(Project_Blocks.java:114)
+at Parameterization.Verify_ProjectBlocks.createProjectBlocks(Verify_ProjectBlocks.java:15)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -387,277 +185,83 @@ at org.testng.TestNG.run(TestNG.java:1082)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Project Setup']"}
-  (Session info: chrome=115.0.5790.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'DESKTOP-MHD5K99', ip: '192.168.29.227', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [103a0e7190504b165941756fcb126508, findElement {using=xpath, value=//div[text()='Project Setup']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64748}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64748/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 103a0e7190504b165941756fcb126508
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-... 29 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- editUser -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Regression.Verify_ProjectSetup_Users@24569dba]" started-at="2023-08-01T19:31:34 IST" name="afterMethod" finished-at="2023-08-01T19:31:34 IST" duration-ms="240" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=editUser status=FAILURE method=Verify_ProjectSetup_Users.editUser()[pri:2, instance:Regression.Verify_ProjectSetup_Users@24569dba] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Regression.Verify_ProjectSetup_Users@24569dba]" started-at="2023-08-01T19:31:34 IST" name="closeBrowser" finished-at="2023-08-01T19:31:37 IST" duration-ms="3063" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- Regression.Verify_ProjectSetup_Users -->
-      <class name="Regression.Verify_Properties_Features">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Regression.Verify_Properties_Features@6be968ce]" started-at="2023-08-01T19:41:50 IST" name="openBrowser" finished-at="2023-08-01T19:43:20 IST" duration-ms="90512" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="waits()[pri:0, instance:Regression.Verify_Properties_Features@6be968ce]" started-at="2023-08-01T19:43:20 IST" name="waits" finished-at="2023-08-01T19:43:20 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waits -->
-        <test-method signature="create_feaure()[pri:0, instance:Regression.Verify_Properties_Features@6be968ce]" started-at="2023-08-01T19:43:20 IST" name="create_feaure" finished-at="2023-08-01T19:43:31 IST" duration-ms="10597" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- create_feaure -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Regression.Verify_Properties_Features@6be968ce]" started-at="2023-08-01T19:43:31 IST" name="afterMethod" finished-at="2023-08-01T19:43:31 IST" duration-ms="20" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=create_feaure status=SUCCESS method=Verify_Properties_Features.create_feaure()[pri:0, instance:Regression.Verify_Properties_Features@6be968ce] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="waits()[pri:0, instance:Regression.Verify_Properties_Features@6be968ce]" started-at="2023-08-01T19:43:31 IST" name="waits" finished-at="2023-08-01T19:43:31 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waits -->
-        <test-method signature="edit_feature()[pri:0, instance:Regression.Verify_Properties_Features@6be968ce]" started-at="2023-08-01T19:43:31 IST" name="edit_feature" finished-at="2023-08-01T19:43:41 IST" duration-ms="10228" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- edit_feature -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Regression.Verify_Properties_Features@6be968ce]" started-at="2023-08-01T19:43:41 IST" name="afterMethod" finished-at="2023-08-01T19:43:41 IST" duration-ms="51" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=edit_feature status=SUCCESS method=Verify_Properties_Features.edit_feature()[pri:0, instance:Regression.Verify_Properties_Features@6be968ce] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Regression.Verify_Properties_Features@6be968ce]" started-at="2023-08-01T19:43:41 IST" name="closeBrowser" finished-at="2023-08-01T19:43:44 IST" duration-ms="3209" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- Regression.Verify_Properties_Features -->
-      <class name="Regression.Verify_ProjectBlocks">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Regression.Verify_ProjectBlocks@7188af83]" started-at="2023-08-01T19:39:44 IST" name="openBrowser" finished-at="2023-08-01T19:41:16 IST" duration-ms="91536" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="createProjectBlocks()[pri:0, instance:Regression.Verify_ProjectBlocks@7188af83]" started-at="2023-08-01T19:41:16 IST" name="createProjectBlocks" finished-at="2023-08-01T19:41:35 IST" duration-ms="19414" status="PASS">
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createProjectBlocks -->
-        <test-method is-config="true" signature="waits()[pri:0, instance:Regression.Verify_ProjectBlocks@7188af83]" started-at="2023-08-01T19:41:16 IST" name="waits" finished-at="2023-08-01T19:41:16 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waits -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Regression.Verify_ProjectBlocks@7188af83]" started-at="2023-08-01T19:41:35 IST" name="afterMethod" finished-at="2023-08-01T19:41:35 IST" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Parameterization.Verify_ProjectBlocks@303cf2ba]" started-at="2023-08-28T21:53:19 IST" name="afterMethod" finished-at="2023-08-28T21:53:19 IST" duration-ms="398" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=createProjectBlocks status=SUCCESS method=Verify_ProjectBlocks.createProjectBlocks()[pri:0, instance:Regression.Verify_ProjectBlocks@7188af83] output={null}]]]>
+                <![CDATA[[TestResult name=createProjectBlocks status=FAILURE method=Verify_ProjectBlocks.createProjectBlocks()[pri:0, instance:Parameterization.Verify_ProjectBlocks@303cf2ba] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="waits()[pri:0, instance:Regression.Verify_ProjectBlocks@7188af83]" started-at="2023-08-01T19:41:35 IST" name="waits" finished-at="2023-08-01T19:41:35 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waits -->
-        <test-method signature="editProjectBlocks()[pri:1, instance:Regression.Verify_ProjectBlocks@7188af83]" started-at="2023-08-01T19:41:35 IST" name="editProjectBlocks" finished-at="2023-08-01T19:41:47 IST" duration-ms="11643" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- editProjectBlocks -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Regression.Verify_ProjectBlocks@7188af83]" started-at="2023-08-01T19:41:47 IST" name="afterMethod" finished-at="2023-08-01T19:41:47 IST" duration-ms="77" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=editProjectBlocks status=SUCCESS method=Verify_ProjectBlocks.editProjectBlocks()[pri:1, instance:Regression.Verify_ProjectBlocks@7188af83] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Regression.Verify_ProjectBlocks@7188af83]" started-at="2023-08-01T19:41:47 IST" name="closeBrowser" finished-at="2023-08-01T19:41:50 IST" duration-ms="3101" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Parameterization.Verify_ProjectBlocks@303cf2ba]" started-at="2023-08-28T21:53:19 IST" name="closeBrowser" finished-at="2023-08-28T21:53:22 IST" duration-ms="3146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- Regression.Verify_ProjectBlocks -->
-      <class name="Regression.Verify_Lead">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Regression.Verify_Lead@1033576a]" started-at="2023-08-01T19:47:38 IST" name="openBrowser" finished-at="2023-08-01T19:49:09 IST" duration-ms="90603" status="PASS">
+      </class> <!-- Parameterization.Verify_ProjectBlocks -->
+      <class name="Parameterization.Verify_ProjectSetup_Projects">
+        <test-method is-config="true" signature="setup_ExtendReport()[pri:0, instance:Parameterization.Verify_ProjectSetup_Projects@451001e5]" started-at="2023-08-28T21:48:47 IST" name="setup_ExtendReport" finished-at="2023-08-28T21:48:47 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_ExtendReport -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Parameterization.Verify_ProjectSetup_Projects@451001e5]" started-at="2023-08-28T21:48:47 IST" name="openBrowser" finished-at="2023-08-28T21:48:53 IST" duration-ms="5935" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="createLead()[pri:1, instance:Regression.Verify_Lead@1033576a]" started-at="2023-08-01T19:49:09 IST" name="createLead" finished-at="2023-08-01T19:49:25 IST" duration-ms="16533" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+        <test-method is-config="true" signature="waits()[pri:0, instance:Parameterization.Verify_ProjectSetup_Projects@451001e5]" started-at="2023-08-28T21:48:53 IST" name="waits" finished-at="2023-08-28T21:48:53 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waits -->
+        <test-method signature="Create_DepartmentAndProject()[pri:1, instance:Parameterization.Verify_ProjectSetup_Projects@451001e5]" started-at="2023-08-28T21:48:53 IST" name="Create_DepartmentAndProject" finished-at="2023-08-28T21:49:44 IST" duration-ms="50744" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[element click intercepted: Element <mat-icon _ngcontent-sot-c217="" role="img" aria-hidden="false" aria-label="Example home icon" class="mat-icon notranslate add-profession material-icons mat-icon-no-color ng-star-inserted" data-mat-icon-type="font">...</mat-icon> is not clickable at point (1240, 544). Other element would receive the click: <iframe src="about:blank" frameborder="0" scrolling="no" width="124px" height="95px" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:0px !important; bottom:30px !important; left:auto !important; position:fixed !important; border:0 !important; min-height:95px !important; min-width:124px !important; max-height:95px !important; max-width:124px !important; padding:0 !important; margin:0px 0 0 0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:rotate(0deg) translateZ(0); -webkit-transform:rotate(0deg) translateZ(0); -ms-transform:rotate(0deg) translateZ(0); width:124px !important; height:95px !important; display:block !important; z-index:1000002 !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:unset !important; pointer-events:auto !important; clip:auto !important; color-scheme:light !important; -moz-transform:rotate(0deg) translateZ(0); -o-transform:rotate(0deg) translateZ(0); transform-origin:0; -moz-transform-origin:0; -webkit-transform-origin:0; -o-transform-origin:0; -ms-transform-origin:0;" id="w4jqu10cu891690899552122" class="" title="chat widget"></iframe>
-  (Session info: chrome=115.0.5790.110)
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'DESKTOP-MHD5K99', ip: '192.168.29.227', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input [@data-placeholder='Project Name']"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cd655328b38331b4922174b4c45ddcff, clickElement {id=90475147AC817C8A4E15B138574D1E3A_element_212}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49480}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49480/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (cd655328b38331b4922174b4c45ddcff)] -> xpath: //mat-icon[text()='add_circle']]
-Session ID: cd655328b38331b4922174b4c45ddcff]]>
+Command: [2b2fa77b1e0cbad6567b58aa2341429f, findElement {using=xpath, value=//input [@data-placeholder='Project Name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65338}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65338/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b2fa77b1e0cbad6567b58aa2341429f]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <mat-icon _ngcontent-sot-c217="" role="img" aria-hidden="false" aria-label="Example home icon" class="mat-icon notranslate add-profession material-icons mat-icon-no-color ng-star-inserted" data-mat-icon-type="font">...</mat-icon> is not clickable at point (1240, 544). Other element would receive the click: <iframe src="about:blank" frameborder="0" scrolling="no" width="124px" height="95px" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:0px !important; bottom:30px !important; left:auto !important; position:fixed !important; border:0 !important; min-height:95px !important; min-width:124px !important; max-height:95px !important; max-width:124px !important; padding:0 !important; margin:0px 0 0 0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:rotate(0deg) translateZ(0); -webkit-transform:rotate(0deg) translateZ(0); -ms-transform:rotate(0deg) translateZ(0); width:124px !important; height:95px !important; display:block !important; z-index:1000002 !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:unset !important; pointer-events:auto !important; clip:auto !important; color-scheme:light !important; -moz-transform:rotate(0deg) translateZ(0); -o-transform:rotate(0deg) translateZ(0); transform-origin:0; -moz-transform-origin:0; -webkit-transform-origin:0; -o-transform-origin:0; -ms-transform-origin:0;" id="w4jqu10cu891690899552122" class="" title="chat widget"></iframe>
-  (Session info: chrome=115.0.5790.110)
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'DESKTOP-MHD5K99', ip: '192.168.29.227', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input [@data-placeholder='Project Name']"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cd655328b38331b4922174b4c45ddcff, clickElement {id=90475147AC817C8A4E15B138574D1E3A_element_212}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49480}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49480/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (cd655328b38331b4922174b4c45ddcff)] -> xpath: //mat-icon[text()='add_circle']]
-Session ID: cd655328b38331b4922174b4c45ddcff
+Command: [2b2fa77b1e0cbad6567b58aa2341429f, findElement {using=xpath, value=//input [@data-placeholder='Project Name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65338}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65338/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b2fa77b1e0cbad6567b58aa2341429f
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
-at Regression.Lead.createLeadProfession(Lead.java:212)
-at Regression.Verify_Lead.createLead(Verify_Lead.java:23)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createLead -->
-        <test-method is-config="true" signature="waits()[pri:0, instance:Regression.Verify_Lead@1033576a]" started-at="2023-08-01T19:49:09 IST" name="waits" finished-at="2023-08-01T19:49:09 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waits -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Regression.Verify_Lead@1033576a]" started-at="2023-08-01T19:49:25 IST" name="afterMethod" finished-at="2023-08-01T19:49:26 IST" duration-ms="442" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=createLead status=FAILURE method=Verify_Lead.createLead()[pri:1, instance:Regression.Verify_Lead@1033576a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Regression.Verify_Lead@1033576a]" started-at="2023-08-01T19:49:26 IST" name="closeBrowser" finished-at="2023-08-01T19:49:29 IST" duration-ms="3179" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- Regression.Verify_Lead -->
-      <class name="Regression.Verify_Term_Conditions">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Regression.Verify_Term_Conditions@496bc455]" started-at="2023-08-01T19:35:29 IST" name="openBrowser" finished-at="2023-08-01T19:36:59 IST" duration-ms="89780" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="waits()[pri:0, instance:Regression.Verify_Term_Conditions@496bc455]" started-at="2023-08-01T19:36:59 IST" name="waits" finished-at="2023-08-01T19:36:59 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waits -->
-        <test-method signature="createTermAndConditons()[pri:0, instance:Regression.Verify_Term_Conditions@496bc455]" started-at="2023-08-01T19:36:59 IST" name="createTermAndConditons" finished-at="2023-08-01T19:37:30 IST" duration-ms="30883" status="FAIL">
-          <exception class="java.lang.IndexOutOfBoundsException">
-            <message>
-              <![CDATA[Index 0 out of bounds for length 0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
-at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
-at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
-at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
-at java.base/java.util.Objects.checkIndex(Objects.java:385)
-at java.base/java.util.ArrayList.get(ArrayList.java:427)
-at Regression.ProjectSetup_TermAndCondition.addTermAndConditions(ProjectSetup_TermAndCondition.java:151)
-at Regression.Verify_Term_Conditions.createTermAndConditons(Verify_Term_Conditions.java:19)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy19.sendKeys(Unknown Source)
+at Parameterization.ProjectSetup_Projects.createProjects(ProjectSetup_Projects.java:193)
+at Parameterization.Verify_ProjectSetup_Projects.Create_DepartmentAndProject(Verify_ProjectSetup_Projects.java:25)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -686,135 +290,111 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createTermAndConditons -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Regression.Verify_Term_Conditions@496bc455]" started-at="2023-08-01T19:37:30 IST" name="afterMethod" finished-at="2023-08-01T19:37:30 IST" duration-ms="267" status="PASS">
+        </test-method> <!-- Create_DepartmentAndProject -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Parameterization.Verify_ProjectSetup_Projects@451001e5]" started-at="2023-08-28T21:49:44 IST" name="afterMethod" finished-at="2023-08-28T21:49:45 IST" duration-ms="1155" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=createTermAndConditons status=FAILURE method=Verify_Term_Conditions.createTermAndConditons()[pri:0, instance:Regression.Verify_Term_Conditions@496bc455] output={null}]]]>
+                <![CDATA[[TestResult name=Create_DepartmentAndProject status=FAILURE method=Verify_ProjectSetup_Projects.Create_DepartmentAndProject()[pri:1, instance:Parameterization.Verify_ProjectSetup_Projects@451001e5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="waits()[pri:0, instance:Regression.Verify_Term_Conditions@496bc455]" started-at="2023-08-01T19:37:30 IST" name="waits" finished-at="2023-08-01T19:37:30 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waits -->
-        <test-method signature="editTermAndConditons()[pri:0, instance:Regression.Verify_Term_Conditions@496bc455]" started-at="2023-08-01T19:37:30 IST" name="editTermAndConditons" finished-at="2023-08-01T19:37:43 IST" duration-ms="13244" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- editTermAndConditons -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Regression.Verify_Term_Conditions@496bc455]" started-at="2023-08-01T19:37:43 IST" name="afterMethod" finished-at="2023-08-01T19:37:43 IST" duration-ms="13" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=editTermAndConditons status=SUCCESS method=Verify_Term_Conditions.editTermAndConditons()[pri:0, instance:Regression.Verify_Term_Conditions@496bc455] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Regression.Verify_Term_Conditions@496bc455]" started-at="2023-08-01T19:37:43 IST" name="closeBrowser" finished-at="2023-08-01T19:37:46 IST" duration-ms="3089" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Parameterization.Verify_ProjectSetup_Projects@451001e5]" started-at="2023-08-28T21:49:45 IST" name="closeBrowser" finished-at="2023-08-28T21:49:49 IST" duration-ms="3207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- Regression.Verify_Term_Conditions -->
-      <class name="Regression.Verify_LeadSource">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Regression.Verify_LeadSource@5ddeb7cb]" started-at="2023-08-01T19:31:37 IST" name="openBrowser" finished-at="2023-08-01T19:33:06 IST" duration-ms="89537" status="PASS">
+      </class> <!-- Parameterization.Verify_ProjectSetup_Projects -->
+      <class name="Parameterization.Verify_LeadSource">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Parameterization.Verify_LeadSource@6be968ce]" started-at="2023-08-28T21:50:37 IST" name="openBrowser" finished-at="2023-08-28T21:50:42 IST" duration-ms="4674" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="waits()[pri:0, instance:Regression.Verify_LeadSource@5ddeb7cb]" started-at="2023-08-01T19:33:06 IST" name="waits" finished-at="2023-08-01T19:33:06 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="waits()[pri:0, instance:Parameterization.Verify_LeadSource@6be968ce]" started-at="2023-08-28T21:50:42 IST" name="waits" finished-at="2023-08-28T21:50:42 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waits -->
-        <test-method signature="create_Lead_Source()[pri:0, instance:Regression.Verify_LeadSource@5ddeb7cb]" started-at="2023-08-01T19:33:06 IST" name="create_Lead_Source" finished-at="2023-08-01T19:33:18 IST" duration-ms="11102" status="PASS">
+        <test-method signature="create_Lead_Source()[pri:0, instance:Parameterization.Verify_LeadSource@6be968ce]" started-at="2023-08-28T21:50:42 IST" name="create_Lead_Source" finished-at="2023-08-28T21:50:57 IST" duration-ms="15735" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- create_Lead_Source -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Regression.Verify_LeadSource@5ddeb7cb]" started-at="2023-08-01T19:33:18 IST" name="afterMethod" finished-at="2023-08-01T19:33:18 IST" duration-ms="30" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Parameterization.Verify_LeadSource@6be968ce]" started-at="2023-08-28T21:50:57 IST" name="afterMethod" finished-at="2023-08-28T21:50:57 IST" duration-ms="67" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=create_Lead_Source status=SUCCESS method=Verify_LeadSource.create_Lead_Source()[pri:0, instance:Regression.Verify_LeadSource@5ddeb7cb] output={null}]]]>
+                <![CDATA[[TestResult name=create_Lead_Source status=SUCCESS method=Verify_LeadSource.create_Lead_Source()[pri:0, instance:Parameterization.Verify_LeadSource@6be968ce] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="waits()[pri:0, instance:Regression.Verify_LeadSource@5ddeb7cb]" started-at="2023-08-01T19:33:18 IST" name="waits" finished-at="2023-08-01T19:33:18 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waits -->
-        <test-method signature="edit_Lead_Source()[pri:1, instance:Regression.Verify_LeadSource@5ddeb7cb]" started-at="2023-08-01T19:33:18 IST" name="edit_Lead_Source" finished-at="2023-08-01T19:33:29 IST" duration-ms="10996" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- edit_Lead_Source -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Regression.Verify_LeadSource@5ddeb7cb]" started-at="2023-08-01T19:33:29 IST" name="afterMethod" finished-at="2023-08-01T19:33:29 IST" duration-ms="22" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=edit_Lead_Source status=SUCCESS method=Verify_LeadSource.edit_Lead_Source()[pri:1, instance:Regression.Verify_LeadSource@5ddeb7cb] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Regression.Verify_LeadSource@5ddeb7cb]" started-at="2023-08-01T19:33:29 IST" name="closeBrowser" finished-at="2023-08-01T19:33:32 IST" duration-ms="3093" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Parameterization.Verify_LeadSource@6be968ce]" started-at="2023-08-28T21:50:57 IST" name="closeBrowser" finished-at="2023-08-28T21:51:00 IST" duration-ms="3116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- Regression.Verify_LeadSource -->
-      <class name="Regression.Verify_Offer">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Regression.Verify_Offer@247310d0]" started-at="2023-08-01T19:46:02 IST" name="openBrowser" finished-at="2023-08-01T19:47:33 IST" duration-ms="90396" status="PASS">
+      </class> <!-- Parameterization.Verify_LeadSource -->
+      <class name="Parameterization.Verify_Properties_PropertyPriceAndStatus">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Parameterization.Verify_Properties_PropertyPriceAndStatus@4a003cbe]" started-at="2023-08-28T21:53:46 IST" name="openBrowser" finished-at="2023-08-28T21:53:51 IST" duration-ms="5183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="edit_offer_OfferTypIsAreaWise()[pri:0, instance:Regression.Verify_Offer@247310d0]" started-at="2023-08-01T19:47:33 IST" name="edit_offer_OfferTypIsAreaWise" finished-at="2023-08-01T19:47:34 IST" duration-ms="1666" status="FAIL">
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
+        <test-method signature="create_Properties()[pri:0, instance:Parameterization.Verify_Properties_PropertyPriceAndStatus@4a003cbe]" started-at="2023-08-28T21:53:51 IST" name="create_Properties" finished-at="2023-08-28T21:54:11 IST" duration-ms="20630" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[stale element reference: stale element not found
-  (Session info: chrome=115.0.5790.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'DESKTOP-MHD5K99', ip: '192.168.29.227', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()=' Add Property Unit Details ']"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6ea05eee341c37e3e4a95c97544e468d, actions {actions=[org.openqa.selenium.interactions.Sequence@7ca46aaf]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49377}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49377/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6ea05eee341c37e3e4a95c97544e468d]]>
+Command: [8696ed07f4c920747b4506bc08a7bb55, findElement {using=xpath, value=//button[text()=' Add Property Unit Details ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49279}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49279/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8696ed07f4c920747b4506bc08a7bb55]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: chrome=115.0.5790.110)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'DESKTOP-MHD5K99', ip: '192.168.29.227', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()=' Add Property Unit Details ']"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6ea05eee341c37e3e4a95c97544e468d, actions {actions=[org.openqa.selenium.interactions.Sequence@7ca46aaf]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49377}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49377/devtoo..., se:cdpVersion: 115.0.5790.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6ea05eee341c37e3e4a95c97544e468d
+Command: [8696ed07f4c920747b4506bc08a7bb55, findElement {using=xpath, value=//button[text()=' Add Property Unit Details ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49279}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49279/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8696ed07f4c920747b4506bc08a7bb55
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:615)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
-at Regression.Properties_Offers.editOffters(Properties_Offers.java:242)
-at Regression.Verify_Offer.edit_offer_OfferTypIsAreaWise(Verify_Offer.java:23)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy19.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:461)
+at Parameterization.Properties_PropertyPriceAndStatus.createPropperties(Properties_PropertyPriceAndStatus.java:127)
+at Parameterization.Verify_Properties_PropertyPriceAndStatus.create_Properties(Verify_Properties_PropertyPriceAndStatus.java:19)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -843,126 +423,555 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- edit_offer_OfferTypIsAreaWise -->
-        <test-method is-config="true" signature="waits()[pri:0, instance:Regression.Verify_Offer@247310d0]" started-at="2023-08-01T19:47:33 IST" name="waits" finished-at="2023-08-01T19:47:33 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- create_Properties -->
+        <test-method is-config="true" signature="waits()[pri:0, instance:Parameterization.Verify_Properties_PropertyPriceAndStatus@4a003cbe]" started-at="2023-08-28T21:53:51 IST" name="waits" finished-at="2023-08-28T21:53:51 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waits -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Regression.Verify_Offer@247310d0]" started-at="2023-08-01T19:47:34 IST" name="afterMethod" finished-at="2023-08-01T19:47:35 IST" duration-ms="630" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Parameterization.Verify_Properties_PropertyPriceAndStatus@4a003cbe]" started-at="2023-08-28T21:54:11 IST" name="afterMethod" finished-at="2023-08-28T21:54:12 IST" duration-ms="465" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=edit_offer_OfferTypIsAreaWise status=FAILURE method=Verify_Offer.edit_offer_OfferTypIsAreaWise()[pri:0, instance:Regression.Verify_Offer@247310d0] output={null}]]]>
+                <![CDATA[[TestResult name=create_Properties status=FAILURE method=Verify_Properties_PropertyPriceAndStatus.create_Properties()[pri:0, instance:Parameterization.Verify_Properties_PropertyPriceAndStatus@4a003cbe] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Regression.Verify_Offer@247310d0]" started-at="2023-08-01T19:47:35 IST" name="closeBrowser" finished-at="2023-08-01T19:47:38 IST" duration-ms="3163" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Parameterization.Verify_Properties_PropertyPriceAndStatus@4a003cbe]" started-at="2023-08-28T21:54:12 IST" name="closeBrowser" finished-at="2023-08-28T21:54:15 IST" duration-ms="3229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- Regression.Verify_Offer -->
-      <class name="Regression.Verify_PropertyType">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Regression.Verify_PropertyType@59402b8f]" started-at="2023-08-01T19:37:46 IST" name="openBrowser" finished-at="2023-08-01T19:39:17 IST" duration-ms="90224" status="PASS">
+      </class> <!-- Parameterization.Verify_Properties_PropertyPriceAndStatus -->
+      <class name="Parameterization.Verify_Overall_Cost_types">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Parameterization.Verify_Overall_Cost_types@7c37508a]" started-at="2023-08-28T21:51:00 IST" name="openBrowser" finished-at="2023-08-28T21:51:06 IST" duration-ms="5020" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="waits()[pri:0, instance:Regression.Verify_PropertyType@59402b8f]" started-at="2023-08-01T19:39:17 IST" name="waits" finished-at="2023-08-01T19:39:17 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="waits()[pri:0, instance:Parameterization.Verify_Overall_Cost_types@7c37508a]" started-at="2023-08-28T21:51:06 IST" name="waits" finished-at="2023-08-28T21:51:06 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- waits -->
-        <test-method signature="createPropertyType()[pri:0, instance:Regression.Verify_PropertyType@59402b8f]" started-at="2023-08-01T19:39:17 IST" name="createPropertyType" finished-at="2023-08-01T19:39:28 IST" duration-ms="11773" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createPropertyType -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Regression.Verify_PropertyType@59402b8f]" started-at="2023-08-01T19:39:28 IST" name="afterMethod" finished-at="2023-08-01T19:39:28 IST" duration-ms="31" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=createPropertyType status=SUCCESS method=Verify_PropertyType.createPropertyType()[pri:0, instance:Regression.Verify_PropertyType@59402b8f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="waits()[pri:0, instance:Regression.Verify_PropertyType@59402b8f]" started-at="2023-08-01T19:39:28 IST" name="waits" finished-at="2023-08-01T19:39:28 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waits -->
-        <test-method signature="editPropertyType()[pri:1, instance:Regression.Verify_PropertyType@59402b8f]" started-at="2023-08-01T19:39:28 IST" name="editPropertyType" finished-at="2023-08-01T19:39:41 IST" duration-ms="12469" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- editPropertyType -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Regression.Verify_PropertyType@59402b8f]" started-at="2023-08-01T19:39:41 IST" name="afterMethod" finished-at="2023-08-01T19:39:41 IST" duration-ms="17" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=editPropertyType status=SUCCESS method=Verify_PropertyType.editPropertyType()[pri:1, instance:Regression.Verify_PropertyType@59402b8f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Regression.Verify_PropertyType@59402b8f]" started-at="2023-08-01T19:39:41 IST" name="closeBrowser" finished-at="2023-08-01T19:39:44 IST" duration-ms="3103" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- Regression.Verify_PropertyType -->
-      <class name="Regression.Verify_Overall_Cost_types">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Regression.Verify_Overall_Cost_types@70ed52de]" started-at="2023-08-01T19:33:32 IST" name="openBrowser" finished-at="2023-08-01T19:35:01 IST" duration-ms="89807" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="waits()[pri:0, instance:Regression.Verify_Overall_Cost_types@70ed52de]" started-at="2023-08-01T19:35:01 IST" name="waits" finished-at="2023-08-01T19:35:01 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waits -->
-        <test-method signature="createOverallCostTypes()[pri:0, instance:Regression.Verify_Overall_Cost_types@70ed52de]" started-at="2023-08-01T19:35:01 IST" name="createOverallCostTypes" finished-at="2023-08-01T19:35:16 IST" duration-ms="14177" status="PASS">
+        <test-method signature="createOverallCostTypes()[pri:0, instance:Parameterization.Verify_Overall_Cost_types@7c37508a]" started-at="2023-08-28T21:51:06 IST" name="createOverallCostTypes" finished-at="2023-08-28T21:51:18 IST" duration-ms="12266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createOverallCostTypes -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Regression.Verify_Overall_Cost_types@70ed52de]" started-at="2023-08-01T19:35:16 IST" name="afterMethod" finished-at="2023-08-01T19:35:16 IST" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Parameterization.Verify_Overall_Cost_types@7c37508a]" started-at="2023-08-28T21:51:18 IST" name="afterMethod" finished-at="2023-08-28T21:51:18 IST" duration-ms="30" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=createOverallCostTypes status=SUCCESS method=Verify_Overall_Cost_types.createOverallCostTypes()[pri:0, instance:Regression.Verify_Overall_Cost_types@70ed52de] output={null}]]]>
+                <![CDATA[[TestResult name=createOverallCostTypes status=SUCCESS method=Verify_Overall_Cost_types.createOverallCostTypes()[pri:0, instance:Parameterization.Verify_Overall_Cost_types@7c37508a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="waits()[pri:0, instance:Regression.Verify_Overall_Cost_types@70ed52de]" started-at="2023-08-01T19:35:16 IST" name="waits" finished-at="2023-08-01T19:35:16 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- waits -->
-        <test-method signature="editOverallCostTypes()[pri:1, instance:Regression.Verify_Overall_Cost_types@70ed52de]" started-at="2023-08-01T19:35:16 IST" name="editOverallCostTypes" finished-at="2023-08-01T19:35:26 IST" duration-ms="10267" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- editOverallCostTypes -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Regression.Verify_Overall_Cost_types@70ed52de]" started-at="2023-08-01T19:35:26 IST" name="afterMethod" finished-at="2023-08-01T19:35:26 IST" duration-ms="15" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=editOverallCostTypes status=SUCCESS method=Verify_Overall_Cost_types.editOverallCostTypes()[pri:1, instance:Regression.Verify_Overall_Cost_types@70ed52de] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Regression.Verify_Overall_Cost_types@70ed52de]" started-at="2023-08-01T19:35:26 IST" name="closeBrowser" finished-at="2023-08-01T19:35:29 IST" duration-ms="3098" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Parameterization.Verify_Overall_Cost_types@7c37508a]" started-at="2023-08-28T21:51:18 IST" name="closeBrowser" finished-at="2023-08-28T21:51:21 IST" duration-ms="3153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- Regression.Verify_Overall_Cost_types -->
+      </class> <!-- Parameterization.Verify_Overall_Cost_types -->
+      <class name="Parameterization.Verify_Offer">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Parameterization.Verify_Offer@4082ba93]" started-at="2023-08-28T21:54:15 IST" name="openBrowser" finished-at="2023-08-28T21:54:19 IST" duration-ms="4218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="create_offer()[pri:0, instance:Parameterization.Verify_Offer@4082ba93]" started-at="2023-08-28T21:54:19 IST" name="create_offer" finished-at="2023-08-28T21:55:04 IST" duration-ms="44353" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//mat-option//span[contains(text(), 'Bhopal')]"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ebef3a22ff158d2226352d4931263891, findElement {using=xpath, value=//mat-option//span[contains(text(), 'Bhopal')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49313}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49313/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ebef3a22ff158d2226352d4931263891]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//mat-option//span[contains(text(), 'Bhopal')]"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ebef3a22ff158d2226352d4931263891, findElement {using=xpath, value=//mat-option//span[contains(text(), 'Bhopal')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49313}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49313/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ebef3a22ff158d2226352d4931263891
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at Parameterization.Properties_Offers.CreateOffters(Properties_Offers.java:229)
+at Parameterization.Verify_Offer.create_offer(Verify_Offer.java:16)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_offer -->
+        <test-method is-config="true" signature="waits()[pri:0, instance:Parameterization.Verify_Offer@4082ba93]" started-at="2023-08-28T21:54:19 IST" name="waits" finished-at="2023-08-28T21:54:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waits -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Parameterization.Verify_Offer@4082ba93]" started-at="2023-08-28T21:55:04 IST" name="afterMethod" finished-at="2023-08-28T21:55:04 IST" duration-ms="279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=create_offer status=FAILURE method=Verify_Offer.create_offer()[pri:0, instance:Parameterization.Verify_Offer@4082ba93] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Parameterization.Verify_Offer@4082ba93]" started-at="2023-08-28T21:55:04 IST" name="closeBrowser" finished-at="2023-08-28T21:55:07 IST" duration-ms="3202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Parameterization.Verify_Offer -->
+      <class name="Parameterization.Verify_Properties_Features">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Parameterization.Verify_Properties_Features@76494737]" started-at="2023-08-28T21:53:22 IST" name="openBrowser" finished-at="2023-08-28T21:53:27 IST" duration-ms="4913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="create_Lead_Source()[pri:0, instance:Parameterization.Verify_Properties_Features@76494737]" started-at="2023-08-28T21:53:27 IST" name="create_Lead_Source" finished-at="2023-08-28T21:53:42 IST" duration-ms="14795" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=116.0.5845.111)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1684541a5380c3e602ec4e866367eeab, clickElement {id=3118CDDFF0A6A1D68A784B2FCC583019_element_92}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49247/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1684541a5380c3e602ec4e866367eeab)] -> xpath: //a[@href='/master/property_feature'] / parent :: li]
+Session ID: 1684541a5380c3e602ec4e866367eeab]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=116.0.5845.111)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1684541a5380c3e602ec4e866367eeab, clickElement {id=3118CDDFF0A6A1D68A784B2FCC583019_element_92}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49247}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49247/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1684541a5380c3e602ec4e866367eeab)] -> xpath: //a[@href='/master/property_feature'] / parent :: li]
+Session ID: 1684541a5380c3e602ec4e866367eeab
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+at Parameterization.Properties_Features.createFeatures(Properties_Features.java:61)
+at Parameterization.Verify_Properties_Features.create_Lead_Source(Verify_Properties_Features.java:15)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_Lead_Source -->
+        <test-method is-config="true" signature="waits()[pri:0, instance:Parameterization.Verify_Properties_Features@76494737]" started-at="2023-08-28T21:53:27 IST" name="waits" finished-at="2023-08-28T21:53:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waits -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Parameterization.Verify_Properties_Features@76494737]" started-at="2023-08-28T21:53:42 IST" name="afterMethod" finished-at="2023-08-28T21:53:42 IST" duration-ms="427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=create_Lead_Source status=FAILURE method=Verify_Properties_Features.create_Lead_Source()[pri:0, instance:Parameterization.Verify_Properties_Features@76494737] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Parameterization.Verify_Properties_Features@76494737]" started-at="2023-08-28T21:53:42 IST" name="closeBrowser" finished-at="2023-08-28T21:53:46 IST" duration-ms="3250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Parameterization.Verify_Properties_Features -->
+      <class name="Parameterization.Verify_Term_Conditions">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Parameterization.Verify_Term_Conditions@247310d0]" started-at="2023-08-28T21:51:21 IST" name="openBrowser" finished-at="2023-08-28T21:51:26 IST" duration-ms="4566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="waits()[pri:0, instance:Parameterization.Verify_Term_Conditions@247310d0]" started-at="2023-08-28T21:51:26 IST" name="waits" finished-at="2023-08-28T21:51:26 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waits -->
+        <test-method signature="createTermAndConditons()[pri:0, instance:Parameterization.Verify_Term_Conditions@247310d0]" started-at="2023-08-28T21:51:26 IST" name="createTermAndConditons" finished-at="2023-08-28T21:52:25 IST" duration-ms="59432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTermAndConditons -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Parameterization.Verify_Term_Conditions@247310d0]" started-at="2023-08-28T21:52:25 IST" name="afterMethod" finished-at="2023-08-28T21:52:25 IST" duration-ms="43" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createTermAndConditons status=SUCCESS method=Verify_Term_Conditions.createTermAndConditons()[pri:0, instance:Parameterization.Verify_Term_Conditions@247310d0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Parameterization.Verify_Term_Conditions@247310d0]" started-at="2023-08-28T21:52:25 IST" name="closeBrowser" finished-at="2023-08-28T21:52:28 IST" duration-ms="3108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Parameterization.Verify_Term_Conditions -->
+      <class name="Parameterization.Verify_Role">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Parameterization.Verify_Role@59402b8f]" started-at="2023-08-28T21:49:49 IST" name="openBrowser" finished-at="2023-08-28T21:49:53 IST" duration-ms="4293" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=116.0.5845.111)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [95e3426535959dbda95b7b916f89271f, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65380}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65380/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 95e3426535959dbda95b7b916f89271f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=116.0.5845.111)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [95e3426535959dbda95b7b916f89271f, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65380}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65380/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 95e3426535959dbda95b7b916f89271f
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:978)
+at Parameterization.BaseClass.openBrowser(BaseClass.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="waits()[pri:0, instance:Parameterization.Verify_Role@59402b8f]" started-at="2023-08-28T21:49:53 IST" name="waits" finished-at="2023-08-28T21:49:53 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waits -->
+        <test-method signature="createRole()[pri:0, instance:Parameterization.Verify_Role@59402b8f]" started-at="2023-08-28T21:49:53 IST" name="createRole" finished-at="2023-08-28T21:49:53 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=116.0.5845.111)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [95e3426535959dbda95b7b916f89271f, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65380}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65380/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 95e3426535959dbda95b7b916f89271f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=116.0.5845.111)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [95e3426535959dbda95b7b916f89271f, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65380}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65380/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 95e3426535959dbda95b7b916f89271f
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:978)
+at Parameterization.BaseClass.openBrowser(BaseClass.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createRole -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Parameterization.Verify_Role@59402b8f]" started-at="2023-08-28T21:49:53 IST" name="afterMethod" finished-at="2023-08-28T21:49:53 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Parameterization.Verify_Role@59402b8f]" started-at="2023-08-28T21:49:53 IST" name="closeBrowser" finished-at="2023-08-28T21:49:53 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Parameterization.Verify_Role -->
+      <class name="Parameterization.Verify_Lead">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Parameterization.Verify_Lead@17fc391b]" started-at="2023-08-28T21:55:07 IST" name="openBrowser" finished-at="2023-08-28T21:55:12 IST" duration-ms="4510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="waits()[pri:0, instance:Parameterization.Verify_Lead@17fc391b]" started-at="2023-08-28T21:55:12 IST" name="waits" finished-at="2023-08-28T21:55:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waits -->
+        <test-method signature="createLead()[pri:1, instance:Parameterization.Verify_Lead@17fc391b]" started-at="2023-08-28T21:55:12 IST" name="createLead" finished-at="2023-08-28T21:55:49 IST" duration-ms="37347" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//mat-option//span[contains(text(),'Bhopal Construction')]"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [94811f13af80077ed9e8eab91153ab5d, findElement {using=xpath, value=//mat-option//span[contains(text(),'Bhopal Construction')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49351}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49351/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 94811f13af80077ed9e8eab91153ab5d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//mat-option//span[contains(text(),'Bhopal Construction')]"}
+  (Session info: chrome=116.0.5845.111)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [94811f13af80077ed9e8eab91153ab5d, findElement {using=xpath, value=//mat-option//span[contains(text(),'Bhopal Construction')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49351}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49351/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 94811f13af80077ed9e8eab91153ab5d
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at Parameterization.Lead.createLeads(Lead.java:231)
+at Parameterization.Verify_Lead.createLead(Verify_Lead.java:25)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Parameterization.Verify_Lead@17fc391b]" started-at="2023-08-28T21:55:49 IST" name="afterMethod" finished-at="2023-08-28T21:55:49 IST" duration-ms="389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createLead status=FAILURE method=Verify_Lead.createLead()[pri:1, instance:Parameterization.Verify_Lead@17fc391b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Parameterization.Verify_Lead@17fc391b]" started-at="2023-08-28T21:55:49 IST" name="closeBrowser" finished-at="2023-08-28T21:55:52 IST" duration-ms="3116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Parameterization.Verify_Lead -->
+      <class name="Parameterization.Verify_PropertyType">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Parameterization.Verify_PropertyType@1033576a]" started-at="2023-08-28T21:52:28 IST" name="openBrowser" finished-at="2023-08-28T21:52:32 IST" duration-ms="4354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="waits()[pri:0, instance:Parameterization.Verify_PropertyType@1033576a]" started-at="2023-08-28T21:52:32 IST" name="waits" finished-at="2023-08-28T21:52:32 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waits -->
+        <test-method signature="createPropertyType()[pri:0, instance:Parameterization.Verify_PropertyType@1033576a]" started-at="2023-08-28T21:52:32 IST" name="createPropertyType" finished-at="2023-08-28T21:52:56 IST" duration-ms="23880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPropertyType -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Parameterization.Verify_PropertyType@1033576a]" started-at="2023-08-28T21:52:56 IST" name="afterMethod" finished-at="2023-08-28T21:52:56 IST" duration-ms="53" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createPropertyType status=SUCCESS method=Verify_PropertyType.createPropertyType()[pri:0, instance:Parameterization.Verify_PropertyType@1033576a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Parameterization.Verify_PropertyType@1033576a]" started-at="2023-08-28T21:52:56 IST" name="closeBrowser" finished-at="2023-08-28T21:53:00 IST" duration-ms="3152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Parameterization.Verify_PropertyType -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

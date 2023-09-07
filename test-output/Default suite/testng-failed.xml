@@ -3,16 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Parameterization.Verify_ProjectSetup_Users">
+      <class name="Parameterization.Verify_Lead">
         <methods>
           <include name="afterMethod"/>
           <include name="openBrowser"/>
-          <include name="createUser"/>
+          <include name="createLead"/>
           <include name="waits"/>
           <include name="closeBrowser"/>
           <include name="setup_ExtendReport"/>
         </methods>
-      </class> <!-- Parameterization.Verify_ProjectSetup_Users -->
+      </class> <!-- Parameterization.Verify_Lead -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
